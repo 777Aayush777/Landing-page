@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+}
+
+.hero{
+    background-color: #1F2937;
+    color: white;
+    margin: 0;
+    padding: 100px;
+    font-family: Roboto,sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right{
+    display: flex;
+    gap: 16px;
+}
+
+.Heads{
+    display: flex;
+    flex-wrap:wrap ;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button{
+    background-color: #3882F6;
+    font-family:Roboto,sans-serif;
+    padding: 5px 20px;
+    font-size:15px;
+    font-weight: 700;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: none;
+}
+
+.para{
+    font-size: 18px;
+    color: #F9FAF8;
+    
+}
+
+img{
+    height: 300px;
+    width: auto;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+}
