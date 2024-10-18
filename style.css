@@ -3,13 +3,15 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: Roboto,sans-serif;
+}
+.hero,.Heads,.logo,button,.para,.text2,.button2,.footer,.text3{
+    color: #F9FAF8;
 }
 
 .hero{
     background-color: #1F2937;
-    color: white;
     margin: 0;
-    font-family: Roboto,sans-serif;
     padding-bottom: 100px;
 }
 
@@ -28,23 +30,19 @@ body{
     display: flex;
     flex-wrap:wrap ;
     font-size: 48px;
-    color: #F9FAF8;
     font-weight: 900;
 }
 
 .logo{
     font-size: 24px;
-    color: #F9FAF8;
     font-weight: 900;
 }
 
 button{
     background-color: #3882F6;
-    font-family:Roboto,sans-serif;
     padding: 5px 30px;
     font-size:20px;
     font-weight: 500;
-    color: #F9FAF8;
     border-radius: 10px;
     border: none;
 
@@ -52,7 +50,7 @@ button{
 
 .para{
     font-size: 18px;
-    color: #F9FAF8;
+    max-width: 800px;
     
 }
 
@@ -65,6 +63,7 @@ img{
     display: flex;
     justify-content: space-between;
     padding: 20px 200px;
+    gap: 50px;
 }
 
 .lefts{
@@ -93,7 +92,6 @@ img{
 }
 .text{
     text-align: center;
-    font-family:Roboto,sans-serif;
     padding: 50px;
     font-size: 36px;
     color: #1F2937;
@@ -110,21 +108,68 @@ img{
 }
 
 .bottom-mid{
-    text-align: center;
-    background-color: #E5E7EB;
-    padding: 100px;
+    text-align: start;
+    max-width: 800px;
+    padding: 0px;
+    
 }
 
 .textz{
     color: #1F2937;
-    font-style: light italic;
+    font-style:italic;
     font-size: 36px;
-    display: flex;
+    font-weight: 50;
+    padding: 0px;
 }
 
 .by-whom{
-    display: flex;
-    justify-content: flex-end;
     font-weight: 500;
     font-size: 30px;
+    text-align: end;
+    padding: 0px;
+}
+
+.quotez{
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 120px;
+}
+
+.popup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.content2{
+    display: flex;
+    background-color: #3882F6;
+    padding: 40px 100px;
+    gap: 200px;
+    border-radius: 8px;
+}
+
+.text2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.button2{
+    background-color: #3882F6;
+    font-size:10px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 3px solid white;
+    flex-shrink: 0;
+}
+
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
 }
